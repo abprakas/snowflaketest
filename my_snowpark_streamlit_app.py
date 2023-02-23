@@ -53,7 +53,7 @@ def load_data(session):
     pd_df_land = snow_df_land.to_pandas() 
     pd_df_waste = snow_df_waste.to_pandas()
     
-    # Use columns to display the three dataframes side-by-side along with their headers
+    # Use columns to display the three dataframes side-by-side along with their headekkrs
     col1, col2, col3 = st.columns(3)
     with st.container():
         with col1:
